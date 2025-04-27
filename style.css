@@ -1,0 +1,29 @@
+.news {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news article {
+    background: rgba(30, 30, 50, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000099;
+    transition: transform 0.3s;
+}
+
+.news article:hover {
+    transform: scale(1.02);
+}
+
+.news h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.news p {
+    font-size: 1.1em;
+}
